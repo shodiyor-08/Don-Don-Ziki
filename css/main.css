@@ -1,0 +1,77 @@
+body {
+    background-color: rgb(73, 21, 122);
+}
+
+
+
+.left-score h2,
+.right-score h2{
+color: white;
+}
+
+.left-score p,
+.right-score p{
+color: white;
+}
+
+.intro h1{
+    font-size: 50px;
+    color: white;
+    margin-bottom: 130px;
+}
+
+.intro p{
+    display: inline;
+    color: white;
+    font-size: 20px;
+    background-color: #008B6D;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.winner p {
+    color: white;
+    font-size: 25px;
+}
+.winner h2{
+    color: white;
+    font-size: 40px;
+}
+
+#win,
+#lose,
+#draw {
+    display: none;
+    color: white;
+}
+
+
+#right-r,
+#left-r{
+    width: 200px;
+    height: 200px;
+}
+
+#right-s,
+#right-p,
+#left-s,
+#left-p {
+    width: 200px;
+    height: 200px;
+    display: none;
+}
+
+.chois-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.chois-img img {
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+}
