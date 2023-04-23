@@ -5,22 +5,22 @@ body {
 
 
 .left-score h2,
-.right-score h2{
-color: white;
+.right-score h2 {
+    color: white;
 }
 
 .left-score p,
-.right-score p{
-color: white;
+.right-score p {
+    color: white;
 }
 
-.intro h1{
+.intro h1 {
     font-size: 50px;
     color: white;
     margin-bottom: 130px;
 }
 
-.intro p{
+.intro p {
     display: inline;
     color: white;
     font-size: 20px;
@@ -35,7 +35,8 @@ color: white;
     color: white;
     font-size: 25px;
 }
-.winner h2{
+
+.winner h2 {
     color: white;
     font-size: 40px;
 }
@@ -49,7 +50,7 @@ color: white;
 
 
 #right-r,
-#left-r{
+#left-r {
     width: 200px;
     height: 200px;
 }
@@ -74,4 +75,68 @@ color: white;
     width: 80px;
     height: 80px;
     cursor: pointer;
+}
+
+@media(max-width:992px) {
+    .intro h1 {
+        font-size: 40px;
+        color: white;
+        margin-bottom: 130px;
+    }
+
+    .winner h2 {
+        color: white;
+        font-size: 30px;
+    }
+
+    #right-r,
+    #left-r,
+    #right-s,
+    #right-p,
+    #left-s,
+    #left-p {
+        width: 150px;
+        height: 150px;
+    }
+
+}
+
+@media(max-width: 576px) {
+    .left-score h2,
+    .right-score h2{
+        font-size: 24px;
+    }
+
+    .intro p {
+        font-size: 15px;
+    }
+
+    .intro h1 {
+        font-size: 26px;
+        color: white;
+        margin-bottom: 100px;
+    }
+
+    #right-r,
+    #left-r,
+    #right-s,
+    #right-p,
+    #left-s,
+    #left-p {
+        width: 80px;
+        height: 80px;
+    }
+
+    .chois-img {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+    
+    .chois-img img {
+        width: 60px;
+        height: 60px;
+        cursor: pointer;
+    }
 }
